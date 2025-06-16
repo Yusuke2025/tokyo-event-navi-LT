@@ -1,4 +1,3 @@
-// main.js
 async function loadEvents() {
   const res = await fetch('data/events.json');
   const events = await res.json();
